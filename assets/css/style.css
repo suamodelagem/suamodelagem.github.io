@@ -1,0 +1,341 @@
+﻿
+    /*=============================================================
+        Authour URI: www.binarytheme.com
+        License: Commons Attribution 3.0
+
+        http://creativecommons.org/licenses/by/3.0/
+
+        100% To use For Personal And Commercial Use.
+        IN EXCHANGE JUST GIVE US CREDITS AND TELL YOUR FRIENDS ABOUT US
+       
+        ========================================================  */
+
+
+    /*=======================================
+        GENERAL STYLES
+    ==================================================*/
+
+    body {
+        font-family: 'Dosis', sans-serif;
+        font-size:14px;
+    }
+
+    .pad-adjust {
+        padding-top: 5px; 
+        padding-bottom: 5px;
+    }
+
+    .text-center {
+        text-align:center;
+    }
+
+
+    p {
+        font-weight:300;
+        line-height:30px;
+        padding-bottom:20px;
+    }
+
+
+    .space-free {
+        height:100px;
+    }
+
+
+
+    .g-pad-bottom {
+        padding-bottom:40px;
+    }
+    .for-full-back {
+         /* IE 8 */
+      -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+
+      /* IE 5-7 */
+      filter: alpha(opacity=90);
+
+      /* Netscape */
+      -moz-opacity: 0.9;
+
+      /* Safari 1.x */
+      -khtml-opacity: 0.9;
+
+      /* Good browsers */
+      opacity: 0.9;
+    }
+
+    section {
+        padding-top:50px;
+    }
+
+    .btn-primary { 
+        background-color: #4a4a4a;
+        font-color: rgba(254, 254, 254);
+        border-color: #4a4a4a;
+
+    }
+    .btn-sec { 
+        background-color: rgba(254, 254, 254);
+        font-color: rgba(254, 254, 0);
+        color: black;
+        border-color: #4a4a4a;
+
+    }
+
+    .btn-sec a { 
+        background-color: rgba(254, 254, 254);
+        font-color: rgba(254, 254, 0);
+        color: black;
+        border-color: #4a4a4a;
+
+    }
+    .alert-primary { 
+        background-color: #4a4a4a ;
+        color: white;
+        border-color: rgba(254, 254, 254);
+        min-height: 192px
+
+
+    }
+
+    #price-sec > div > div.row.text-center.g-pad-bottom > div > div > div.panel-body{
+        min-height: 389px
+    }
+
+    .especialidade {
+        min-height: 215px
+    }
+
+    /*=======================================
+        NAV BAR STYLES
+    ==================================================*/
+    /* ADDED PADDING IN NAVBAR */
+    .navbar {
+        padding:10px;
+         -webkit-transition: background .8s ease-out,padding .8s ease-out;
+            -moz-transition: background .8s ease-out,padding .8s ease-out;
+            transition: background .8s ease-out,padding .8s ease-out;
+    }
+    /* CLASS FOR REMOVING PADDING IN NAVBAR*/
+    .navbar-pad-original {
+          padding:0px;
+    }
+
+
+    /*TO MAKING NAV BAR LINKS WHITE COLORED */
+    .navbar-inverse .navbar-nav > li > a {
+    color: rgba(255, 242, 18, 1);
+    }
+
+    .navbar-inverse .navbar-brand {
+    color: rgba(255, 242, 18, 1);
+    }
+
+    .navbar-inverse {
+    background-color: #2e2d2e;
+    border-color: #2e2d2e;
+    }
+     
+    /*=======================================
+        HOME SECTION STYLES
+    ==================================================*/
+
+
+    .head-btn-one {
+        background-color: rgba(20, 173, 124, 1);
+         border: 0px solid #fff;
+
+    }
+
+    #home {
+        padding-top:130px;
+        padding-bottom:200px;
+        color:#fff;
+    }
+    .head-main {
+        font-size:50px ;
+        font-weight:900;
+        
+    }
+
+    .head-last {
+        font-size:20px ;
+        font-weight:300;
+        padding:5px 20px 20px 20px;
+    }
+
+    .btn-lg, .btn-group-lg > .btn {
+    border-radius: 0px; 
+
+    }
+
+    /*=======================================
+        ABOUT SECTION STYLES
+    ==================================================*/
+
+    .curriculo {
+        min-height: 192px;
+    }
+
+    .team-member {
+        float: left;
+        position: relative;
+        width: 100%;
+    }
+    .team-member > img {
+        float: left;
+        width: 100%;
+        
+    }
+    .team-member > h3 {
+        background: rgba(255, 242, 18, 1);
+        position: absolute;
+        bottom: 0;
+        color:#2e2d2e;
+        font-size: 20px;
+        letter-spacing: 1px;
+        line-height: 16px;
+        padding: 15px 0;
+        position: absolute;
+        text-align: center;  
+        width: 100%;
+        line-height:10px;
+    }
+
+
+    /*=======================================
+        CLIENT TESTIMONIAL STYLES
+    ==================================================*/
+
+
+    #clients-testimonial {
+        color:#fff;
+    }
+    #carousel-example {
+        margin-top:50px;
+
+    }
+    .slide-custom {
+        min-height:200px;
+        padding:20px;
+        line-height:30px;
+    }
+    h4 i{
+       padding:5px;
+    }
+    .user-img {
+    border: 2px solid #fff;
+    overflow: hidden;
+    border-radius: 50%;
+    display: inline-block;
+    }
+
+    .img-u {
+       max-height: 90px;
+    max-width: 90px;
+    }
+
+    .c-black {
+        color:#fff;
+        font-style: italic;
+    font-size: 20px;
+    padding: 5px;
+    }
+    /*=======================================
+        PRICE SECTION STYLES
+    ==================================================*/
+
+
+    .plan {
+       
+        padding: 0 0 15px 0;
+        margin: 30px 0px;
+        list-style: none;
+        text-align: center;
+      
+    }
+
+    .plan li {
+        padding: 20px 0px;
+        color: #434749;
+    }
+
+    .price {
+        font-size:30px;
+    }
+    /*=======================================
+        STATS SECTION STYLES
+    ==================================================*/
+    .stats-div {
+        text-align:left;
+        width: 100%;
+        min-height: 100px;
+        padding: 30px 20px 30px 20px;
+        color:#fff;
+    }
+
+    .stats-div > h3 {
+        font-size:60px;
+        font-weight:900;
+    }
+
+    /*=======================================
+        CONTACT STYLES
+    ==================================================*/
+    #contact-inner {
+        padding-bottom:60px;
+        padding-bottom:50px;
+    }
+
+    /*=======================================
+        COLOR CODES
+    ==================================================*/
+
+    .color-bg-one {
+        background-color:#2e2d2e!important;
+        color:rgba(255, 242, 18, 1);
+    }
+    .color-white {
+       background-color:#fff!important;
+    }
+    #add {
+        font-size:30px;
+        line-height:40px;
+        
+    }
+    #contact-inner .form-control {
+       
+        height: 55px;
+    }
+
+    /*=======================================
+        SOCIAL SECTION STYLES
+    ==================================================*/
+
+    .scl {
+        background:#2e2d2e;
+        
+        color:rgba(255, 242, 18, 1);
+    }
+        .scl h4 {
+            font-size:40px;
+        }
+        .scl a {
+            color:#fff;
+        }
+    .scl-dark-bk {
+        background:#2e2d2e;
+    }
+    /*=======================================
+        FOOTER STYLES
+    ==================================================*/
+
+
+    #footer {
+        color:rgba(255, 242, 18, 1);
+        padding:20px 50px 20px 50px;
+        text-align:right;
+        background-color:#2e2d2e;
+    }
+
+
+
